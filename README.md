@@ -22,6 +22,16 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Prerequisites
+
+Please install following on local host machine
+
+| Package                                                   | Version  |
+| --------------------------------------------------------- | -------- |
+| [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) | 0.40.3   |
+| [node](https://www.npmjs.com/package/node)                       | >=20.0.0 |
+| [mongoose](https://www.npmjs.com/package/mongoose)                                                  | 8.14.0   |
+
 ## Project setup
 
 ```bash
