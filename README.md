@@ -29,8 +29,24 @@ Please install following on local host machine
 | Package                                                   | Version  |
 | --------------------------------------------------------- | -------- |
 | [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) | 0.40.3   |
-| [node](https://www.npmjs.com/package/node)                       | >=20.0.0 |
-| [mongoose](https://www.npmjs.com/package/mongoose)                                                  | 8.14.0   |
+| [node](https://www.npmjs.com/package/node)                   | >=20.0.0 |
+| [mongoose](https://www.npmjs.com/package/mongoose)           | 8.14.0   |
+
+## ENV setup
+
+This variable is used to configure the MongoDB connection for the backend application.
+
+```ini
+DATABASE_URL=mongodb+srv://<username>:<password>@testdb.a3izezs.mongodb.net/?retryWrites=true&w=majority&appName=<dbName>
+```
+
+#### Description:
+
+* **`<username>`** – Your MongoDB Atlas database username
+* **`<password>`** – The corresponding password for the above user
+* **`<dbName>`** – The name of your MongoDB Atlas database
+
+> ⚠️ **Important:** Make sure to URL-encode special characters in the username or password (e.g., `@`, `#`, etc.).
 
 ## Project setup
 
